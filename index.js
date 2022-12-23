@@ -6,6 +6,7 @@ const axios = require('axios');
  */
 
 const gChatWebhook = async () => {
+  console.log("CICD in nodejs");
   const webhookURL = 'https://chat.googleapis.com/v1/spaces/AAAAXY68114/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=qZruEL7Va4fJGvY5zhMwNcTFmTmRhEsQ9CNQyiH3wy8%3D';
   try {
     const data = JSON.stringify({
